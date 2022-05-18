@@ -4,20 +4,68 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+                                {/* <!-- Input for Phone Number --> */}
+  <div>
+    <h3>Email PART</h3>
+    <label for="Email:">Email:</label>
+    <input type="text" />
+  </div>
+                                  
+                                  
+                                  
+                                    {/* <!-- Input for Phone Number --> */}
+  <div>
+    <h3>date of birth PART</h3>
+    <label for="Email:">DOB:</label>
+    <input type="date" />
+  </div>
+
+
+
+
+                                    {/* <!-- Input for Phone Number --> */}
+  <div>
+    <h3>Phone number PART</h3>
+    <label for="Email:">Phone No:</label>
+    <input class="phone-no" id="phone-no" type="text" placeholder="Type your Phone Number"/>
+  </div>
+
+
+
+
+  <div>
+    <h3>File Picker PART</h3>
+    <input type="file" class="select-file" />
+  </div>
+
+
+
+
+  
+                                        {/* <!-- Default Dropdown --> */}
+  <h3>Default Dropdown PART</h3>
+  <select name="names" id="names">
+    <option value="default">Select an option</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+  </select>
+  <br/>
+
+
+
+
+                                        {/* <!-- Dropdown for GENDER --> */}
+  <h3>Gender Dropdown PART</h3>
+  <label>Gender</label>
+  <select name="names" id="names">
+    <option value="default">Select an option</option>
+    <option value="male">MALE</option>
+    <option value="female">FEMALE</option>
+  </select>
+
     </div>
   );
 }
